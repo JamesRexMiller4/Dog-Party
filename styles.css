@@ -7,8 +7,6 @@ other main blue - #408da7
 
 html {
   box-sizing: border-box;
-  width: 100%;
-  height: 100%;
 }
 
 *,
@@ -17,6 +15,10 @@ html {
   box-sizing: inherit;
 }
 
+  /* * {
+    border: 1px solid red;
+  } */
+
 
 body {
   width: 100%;
@@ -24,6 +26,20 @@ body {
   margin: auto;
 }
 
+header {
+  display: inline-block;
+  width: 100%;
+  background-color: #92dfe4;
+  border-bottom: 4px solid;
+  border-color: #408da7;
+  /* margin-bottom: -46px; */
+}
+
+nav {
+  float: right;
+  text-align: center;
+  margin: 20px;
+}
 
 a {
   font-size: 20px;
@@ -35,10 +51,8 @@ a {
   text-align: center;
 }
 
-nav {
-  float: right;
-  text-align: center;
-  margin: 20px;
+a:hover {
+  color: #408da7;
 }
 
 h1{
@@ -57,10 +71,11 @@ h2 {
 }
 
 span.name {
+  display: inline-block;
   font-size: 1.5rem;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
-  margin-right: 435px;
+  margin-right: 40%;
   margin-top: 20px;
 }
 
@@ -70,31 +85,12 @@ p {
   font-size: 1.5rem;
   font-weight: 600;
   margin-left: 50px;
-}
-
-.backgroundimg {
-  width: 100%;
-  height: 710px;
-  background-image:url(images/park.jpg);
-  background-repeat:no-repeat;
-  background-position: 50% 65%;
-  background-attachment: absolute;
-  background-size: cover;
-}
-
-.overlay{
-  height:inherit;
-  background:rgba(22,19,19,.4);
-}
-
-.headerdiv {
-  height: 12%;
-  background-color: #92dfe4;
-  border-bottom: 4px solid;
-  border-color: #408da7;
+  padding: 10px;
+  margin-right: 10%;
 }
 
 .dogicon {
+  float: left;
   width: 55px;
   height: 55px;
   margin: 10px 0px 20px 20px;
@@ -112,31 +108,53 @@ p {
 
 
 .topdog {
-  margin-left: 40%;
+  display: inline-block;
 }
 
 .form {
   text-align: center;
+  width: 80%;
+  height: 4rem;
+  margin-left: 10%;
 }
 
-.somedogs {
+.sectionsomedog {
+  margin-top: -44px;
+  text-align: center;
+  width: 100%;
+  height: 38rem;
+  background:linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("images/park.jpg");
+  background-repeat:no-repeat;
+  background-position: 65% 80%;
+  background-attachment: absolute;
+  background-size: cover;
+}
+
+#somedogs {
   font-weight: bold;
   font-size: 3rem;
 }
 
 .firstbar {
+  display: inline-block;
   margin-top: 10px;
-  width: 36%;
+  margin-left: 9px;
+  width: 46.5%;
   height: 60px;
   border-radius: 4px;
   text-align: center;
 }
 
+input[type="text"] {
+  font-size:25px;
+}
+
 button {
   margin-top: 30px;
   margin-bottom: 180px;
+  margin-left: 9px;
   display: inline-block;
-  width: 36%;
+  width: 46.5%;
   height: 60px;
   font-size: 1.5rem;
   font-family: 'Open Sans', sans-serif;
@@ -144,21 +162,43 @@ button {
   background: #92dfe4;
 }
 
-.secondhalf {
-  background: #ffffff;
+button:hover {
+  color: #92dfe4;
+  background-color: #408da7;
+  border: 2px solid;
+  border-color: #92dfe4;
+}
+
+.how .facts .what {
+  width: 100%;
+  padding: 20px;
+  /* margin-left: 0px; */
 }
 
 .containerdog {
+  /* display: inline-block; */
+  margin-top: 40px;
   text-align: center;
   float: left;
   width: 33%;
   background: #ffffff;
+
 }
 
+.buttons {
+  width: 100%;
+}
 .containerbutton {
-  width: 80%;
-  background: #408da7;
-  color: #ffffff;
+ width: 80%;
+ background: #408da7;
+ color: #ffffff;
+ padding: : 20px;
+}
+
+
+p {
+  padding: 10px;
+  margin-right: 10%;
 }
 
 .bottomlinks{
@@ -169,8 +209,16 @@ button {
   background-color: #408da7;
 }
 
+.disappear {
+
+  display: none;
+
+
+}
+
 .footerlink {
   width: 100%;
+  height: 4rem;
   display: block;
   margin-top: 40px;
   text-align: center;
@@ -188,3 +236,14 @@ button {
 .social.left {
   margin-left: 41%;
 }
+
+@media (min-width:1050px) {
+
+
+}
+
+/* @media (min-width: 899px) {
+
+
+
+} */
