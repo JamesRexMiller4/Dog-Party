@@ -150,7 +150,8 @@ footer {
 }
 
 .sectionsomedog {
-  margin-top: -44px;
+  margin-top: -4px;
+  padding-top: 20px;
   margin-bottom: -120px;
   text-align: center;
   width: inherit;
