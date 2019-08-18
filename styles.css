@@ -15,10 +15,6 @@ html {
   box-sizing: inherit;
 }
 
-  /* * {
-    border: 1px solid red;
-  } */
-
 
 body {
   width: 100%;
@@ -32,13 +28,17 @@ header {
   background-color: #92dfe4;
   border-bottom: 4px solid;
   border-color: #408da7;
-  /* margin-bottom: -46px; */
 }
 
 nav {
   float: right;
   text-align: center;
   margin: 20px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
 }
 
 a {
@@ -89,62 +89,6 @@ p {
   margin-right: 10%;
 }
 
-.dogicon {
-  float: left;
-  width: 55px;
-  height: 55px;
-  margin: 10px 0px 20px 20px;
-}
-
-.dogpic {
-  width: 250px;
-  height: 250px;
-  border: 5px solid;
-  border-color: #408da7;
-  border-radius: 50%;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-
-.topdog {
-  display: inline-block;
-}
-
-.form {
-  text-align: center;
-  width: 80%;
-  height: 4rem;
-  margin-left: 10%;
-}
-
-.sectionsomedog {
-  margin-top: -44px;
-  text-align: center;
-  width: 100%;
-  height: 38rem;
-  background:linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("images/park.jpg");
-  background-repeat:no-repeat;
-  background-position: 65% 80%;
-  background-attachment: absolute;
-  background-size: cover;
-}
-
-#somedogs {
-  font-weight: bold;
-  font-size: 3rem;
-}
-
-.firstbar {
-  display: inline-block;
-  margin-top: 10px;
-  margin-left: 9px;
-  width: 46.5%;
-  height: 60px;
-  border-radius: 4px;
-  text-align: center;
-}
-
 input[type="text"] {
   font-size:25px;
 }
@@ -169,18 +113,92 @@ button:hover {
   border-color: #92dfe4;
 }
 
+footer {
+  width: 100%;
+  height: 20%;
+  background-color: #408da7;
+}
+
+/* HEADER  */
+
+.dogicon {
+  float: left;
+  width: 55px;
+  height: 55px;
+  margin: 10px 0px 20px 20px;
+}
+
+/* First Half Main */
+
+.dogpic {
+  width: 250px;
+  height: 250px;
+  border: 5px solid;
+  border-color: #408da7;
+  border-radius: 50%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.topdog {
+  display: inline-block;
+}
+
+.form {
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.sectionsomedog {
+  margin-top: -44px;
+  text-align: center;
+  width: inherit;
+  height: inherit;
+  background:linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("images/park.jpg");
+  background-repeat:no-repeat;
+  background-position: 65% 80%;
+  background-attachment: absolute;
+  background-size: cover;
+}
+
+/* Second Half Main */
+
+.secondhalf {
+  display: inline-block;
+  width: inherit;
+  background-color: #ffffff;
+  /* margin-bottom: -10px; */
+}
+
+#somedogs {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.firstbar {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 9px;
+  width: 46.5%;
+  height: 60px;
+  border-radius: 4px;
+  text-align: center;
+}
+
 .how .facts .what {
   width: 100%;
   padding: 20px;
-  /* margin-left: 0px; */
 }
 
 .containerdog {
-  /* display: inline-block; */
+  display: inline-block;
   margin-top: 40px;
   text-align: center;
   float: left;
   width: 33%;
+  height: inherit;
   background: #ffffff;
 
 }
@@ -190,36 +208,25 @@ button:hover {
 }
 .containerbutton {
  width: 80%;
+ /* height: inherit; */
  background: #408da7;
  color: #ffffff;
- padding: : 20px;
+ margin-bottom: 45px;
 }
 
-
-p {
-  padding: 10px;
-  margin-right: 10%;
-}
+/* FOOTER */
 
 .bottomlinks{
   margin-top: -400px;
   display: inline-block;
-  width: 100%;
+  width: 50%;
   height: 200px;
   background-color: #408da7;
 }
 
-.disappear {
-
-  display: none;
-
-
-}
-
-.footerlink {
+#footerlink {
   width: 100%;
-  height: 4rem;
-  display: block;
+  display: inline-block;
   margin-top: 40px;
   text-align: center;
   color: #ffffff;
@@ -227,23 +234,113 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+#footerlink:hover {
+  color: #92dfe4;
+}
 .social {
-  margin-left: 20px;
-  float: left;
-  display: block;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  float: inherit;
+  display: inline-block;
 }
 
 .social.left {
-  margin-left: 41%;
+  margin-left: 40.5%;
 }
 
-@media (min-width:1050px) {
+/* JS Manipulation */
+.disappear {
+
+  display: none;
 
 
 }
 
-/* @media (min-width: 899px) {
+/* Tablet */
 
+@media (max-width:1400px) and (min-width:1200px){
+p {
+    text-align: left;
+    margin-left: 120px;
+    padding: 20px;
+  }
 
+.secondhalf {
+    width: 100%
+  }
 
-} */
+.containerdog {
+  width: 50%;
+  display: block;
+  /* margin-left: 80px; */
+
+}
+
+.social.left {
+  margin-left: 40%;
+}
+
+}
+
+/* Tablet */
+
+@media (max-width: 1199px) and (min-width: 900px){
+p {
+    text-align: left;
+    margin-left: 120px;
+    padding: 20px;
+  }
+
+.secondhalf {
+    width: 100%;
+  }
+
+.containerdog {
+  width: 100%;
+  display: block;
+}
+
+.buttons {
+  width: 100%;
+}
+.containerbutton{
+  width: 50%;
+}
+
+.social.left {
+  margin-left:38.5%;
+}
+
+}
+/* Mobile */
+
+@media (max-width: 899px) {
+  p {
+      text-align: left;
+      margin-left: 120px;
+      padding: 20px;
+    }
+
+  .secondhalf {
+      width: 100%;
+    }
+
+  .containerdog {
+    width: 100%;
+    display: block;
+  }
+
+  .buttons {
+    width: 100%;
+  }
+  .containerbutton{
+    width: 50%;
+  }
+
+  .social.left {
+    margin-left:27%;
+  }
+
+}
