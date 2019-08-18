@@ -310,7 +310,7 @@ p {
 }
 /* Mobile */
 
-@media (max-width: 899px) {
+@media (max-width: 899px) and (min-width: 520px) {
 p {
   text-align: left;
   margin-left: 120px;
@@ -337,5 +337,60 @@ p {
 .social.left {
   margin-left:27%;
   }
+
+}
+
+@media (max-width: 519px) {
+
+.dogicon {
+  width: 30px;
+  height: 30px;
+}
+
+a {
+  font-size: 13.5px;
+}
+
+span.name {
+  margin-left: -40px;
+}
+
+#namebtn {
+  width: 80%;
+}
+.firstbar {
+  width: 80%;
+}
+
+p {
+  text-align: left;
+  font-size: 20px;
+}
+
+.secondhalf {
+  width: 100%;
+}
+
+.containerdog {
+  width: 100%;
+  display: block;
+}
+
+.buttons {
+  width: 100%;
+}
+
+.containerbutton {
+  width: 60%;
+}
+
+.social {
+  width: 30px;
+  height: 30px;
+}
+
+.social.left {
+  margin-left:23%;
+}
 
 }
