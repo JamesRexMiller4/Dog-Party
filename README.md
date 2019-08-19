@@ -1,14 +1,6 @@
 # Dog Party 2.0 Project (Duration: 1 week)
 
-
-## HTML-DOM
-This was the week 1 solo project for Turing School of Software and Design's 1908 Front End Engineering cohort. We were tasked with replicating a provided comp, and providing
-some additional functionality and responsiveness. Utilizing semantic html elements I divided the web page into a header, main, first and second
-half sections, with divs breaking those sections into further pieces, and finally a footer.
-
-Originally I sped through this without giving much thought about the layout, more so about being able to replicate the comp provided. I ended
-up going back and replacing the divs I used with sections. I was surprised to find how much I was able to remove while still executing the
-desired result.
+This was the week 1 solo project for Turing School of Software and Design's 1908 Front End Engineering cohort. We were tasked with replicating a provided comp, and providing some additional functionality and responsiveness.
 
 Here is the comp that was provided:
 
@@ -16,8 +8,18 @@ Here is the comp that was provided:
 
 ![compsecondhalf](https://user-images.githubusercontent.com/27719824/63234080-e7fdea00-c1f0-11e9-8f1a-6d76d469fddc.png)
 
+## HTML-DOM
 
+Utilizing semantic html elements I divided the web page into a header, main, first and second
+half sections, with divs breaking those sections into further pieces, and finally a footer.
 
+Originally I sped through this without giving much thought about the layout, more so about being able to replicate the comp provided. I ended
+up going back and replacing the divs I used with sections. I was surprised to find how much I was able to remove while still executing the
+
+Final result: 
+
+![indexhtml](https://user-images.githubusercontent.com/27719824/63234252-ba657080-c1f1-11e9-8c40-cac5c4d46071.png)
+![indexhtml2](https://user-images.githubusercontent.com/27719824/63234288-d832d580-c1f1-11e9-887a-f93fe9c9c546.png)
 
 ---
 ## CSS
