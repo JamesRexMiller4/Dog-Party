@@ -4,7 +4,7 @@ This was the week 1 solo project for Turing School of Software and Design's 1908
 
 Here is the comp that was provided:
 
-![comp](https://user-images.githubusercontent.com/27719824/63236676-f00f5700-c1fb-11e9-910c-7361e4ddee34.png)
+![comp_dog_party](https://user-images.githubusercontent.com/27719824/63236908-f0f4b880-c1fc-11e9-8a59-ec48c5ef0e49.png)
 
 ## HTML-DOM
 
