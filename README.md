@@ -60,4 +60,5 @@ I did add some tooltip features to my header links.
 Tasks yet to complete:
 
 * add a transition css property to the column collapse javascript. 
+* add second input textbox that allows input value to replace a specified column
 
