@@ -12,7 +12,7 @@ desired result.
 
 Here is the comp that was provided:
 
-![firsthalf](/images/compfirsthalf.png)
+![compfirsthalf]("https://user-images.githubusercontent.com/27719824/63233995-5f7f4980-c1f0-11e9-9c6e-72036e3f3323.png")
 
 ![secondhalf](/images/compsecondhalf.png)
 
