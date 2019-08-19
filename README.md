@@ -1,5 +1,5 @@
 # Dog Party 2.0 Project (Duration: 1 week) 
-----
+
 
 ## HTML-DOM
 This was the week 1 solo project for the 1908 Front End Engineering Cohort. We were tasked with replicating a provided comp, and providing
