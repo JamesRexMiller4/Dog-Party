@@ -1,31 +1,38 @@
 # Dog Party 2.0 Project (Duration: 1 week)
 
-
-## HTML-DOM
-This was the week 1 solo project for Turing School of Software and Design's 1908 Front End Engineering cohort. We were tasked with replicating a provided comp, and providing
-some additional functionality and responsiveness. Utilizing semantic html elements I divided the web page into a header, main, first and second
-half sections, with divs breaking those sections into further pieces, and finally a footer.
-
-Originally I sped through this without giving much thought about the layout, more so about being able to replicate the comp provided. I ended
-up going back and replacing the divs I used with sections. I was surprised to find how much I was able to remove while still executing the
-desired result.
+This was the week 1 solo project for Turing School of Software and Design's 1908 Front End Engineering cohort. We were tasked with replicating a provided comp, and providing some additional functionality and responsiveness.
 
 Here is the comp that was provided:
 
-![firsthalf](images/compfirsthalf.png)
+![compfirsthalf](https://user-images.githubusercontent.com/27719824/63233995-5f7f4980-c1f0-11e9-9c6e-72036e3f3323.png)
 
-![secondhalf](images/compsecondhalf.png)
+![compsecondhalf](https://user-images.githubusercontent.com/27719824/63234080-e7fdea00-c1f0-11e9-8f1a-6d76d469fddc.png)
 
+## HTML-DOM
 
+Utilizing semantic html elements I divided the web page into a header, main, first and second
+half sections, with divs breaking those sections into further pieces, and finally a footer.
+
+Originally I sped through this without giving much thought about the layout, more so about being able to replicate the comp provided. I ended
+up going back and replacing the divs I used with sections. I was surprised to find how much I was able to remove while still being able to produce the desire result. 
+
+Final result: 
+
+![indexhtml](https://user-images.githubusercontent.com/27719824/63234252-ba657080-c1f1-11e9-8c40-cac5c4d46071.png)
+![indexhtml2](https://user-images.githubusercontent.com/27719824/63234288-d832d580-c1f1-11e9-887a-f93fe9c9c546.png)
 
 ---
 ## CSS
 
 The task for this project was to replicate the stylings according to the comp provided. There were multiple images, some svg icons, and color hex values provided. With those in hand I went about recreating the web page.
 
-For the stylesheet we were not allowed to utilize some of the new CSS features available (grid/flexbox), so I created div containers for
-the columns with the what, how, and facts dogs. I originally used divs for a background image and an overlay, but when I went back and refactored I was able to have the same effect with no divs at all. Though my entire css exploded, it was good practice refactoring. This time around my elements were arranged according the their stacking order. I am sure I could go back and combine properties under a single class and apply them through the DOM, and thereby edit out some of the lengthiness of my css file. But the end is never the end.
+For the stylesheet we were not allowed to utilize some of the new CSS features available (grid/flexbox), so I created div containers for the columns with the what, how, and facts dogs. I originally used divs for a background image and an overlay, but when I went back and refactored I was able to have the same effect with no divs at all. Though my entire css exploded, it was good practice refactoring. This time around my elements were arranged according the their stacking order. I am sure I could go back and combine properties under a single class and apply them through the DOM, and thereby edit out some of the lengthiness of my css file. But the end is never the end.
 
+My version of the provided comp:
+
+![firsthalfproject](https://user-images.githubusercontent.com/27719824/63234520-cb62b180-c1f2-11e9-8796-c6cde02482b0.png)
+![secondhalfproj](https://user-images.githubusercontent.com/27719824/63234545-e6352600-c1f2-11e9-989c-99d6044c0dfa.png)
+![lasthalf](https://user-images.githubusercontent.com/27719824/63234562-f9e08c80-c1f2-11e9-9d1c-c3e33997d155.png)
 ---
 ## JS
 
