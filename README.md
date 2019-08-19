@@ -44,6 +44,11 @@ Result:
 
 ![columncollapse](demo/columncollapse.gif)
 
+
+
+
+And the uncollapse: 
+
 ![uncollapse](demo/uncollapse.gif)
 
 
