@@ -4,9 +4,7 @@ This was the week 1 solo project for Turing School of Software and Design's 1908
 
 Here is the comp that was provided:
 
-![compfirsthalf](https://user-images.githubusercontent.com/27719824/63233995-5f7f4980-c1f0-11e9-9c6e-72036e3f3323.png)
-
-![compsecondhalf](https://user-images.githubusercontent.com/27719824/63234080-e7fdea00-c1f0-11e9-8f1a-6d76d469fddc.png)
+![comp_dog_party](https://user-images.githubusercontent.com/27719824/63236908-f0f4b880-c1fc-11e9-8a59-ec48c5ef0e49.png)
 
 ## HTML-DOM
 
@@ -30,9 +28,7 @@ For the stylesheet we were not allowed to utilize some of the new CSS features a
 
 My version of the provided comp:
 
-![firsthalfproject](https://user-images.githubusercontent.com/27719824/63234520-cb62b180-c1f2-11e9-8796-c6cde02482b0.png)
-![secondhalfproj](https://user-images.githubusercontent.com/27719824/63234545-e6352600-c1f2-11e9-989c-99d6044c0dfa.png)
-![lasthalf](https://user-images.githubusercontent.com/27719824/63234562-f9e08c80-c1f2-11e9-9d1c-c3e33997d155.png)
+![dog_party_project](https://user-images.githubusercontent.com/27719824/63236703-01f0fa00-c1fc-11e9-8e6b-2181a685597f.png)
 ---
 ## JS
 
