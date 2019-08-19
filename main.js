@@ -6,6 +6,7 @@ var btn = document.getElementById('namebtn');
 btn.addEventListener('click', function(){
     var fromInput = bar.value;
     headchange.innerHTML = fromInput;
+    bar.value = '';
 });
 
 var para1 = document.querySelector('.p1');
