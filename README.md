@@ -43,3 +43,5 @@ The second of the javascript was for the buttons of the three columns. When clic
 Result: 
 
 ![columncollapse](demo/columncollapse.gif)
+
+![uncollapse](demo/uncollapse.gif)
