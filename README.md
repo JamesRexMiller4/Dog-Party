@@ -12,9 +12,9 @@ desired result.
 
 Here is the comp that was provided:
 
-[firsthalf](images/compfirsthalf.png)
+![firsthalf](images/compfirsthalf.png)
 
-[secondhalf](images.compsecondhalf.png)
+![secondhalf](images.compsecondhalf.png)
 
 
 
