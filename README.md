@@ -39,3 +39,7 @@ Result:
 ![headerchange](demo/headerchange.gif)
 
 The second of the javascript was for the buttons of the three columns. When clicked these buttons were to collaps the text fields of their respective columns. Before I begin I had a notion that I would need to use the display property. After playing around with that and not having any success I opted for the visibility property. Then it came to replicating the javascript from before but assigning some new variables. This time it was : button when clicked, add the class to this specific p element. In order, to undo the effect I discovered that there was a .toggle method available that did exactly that. I then replicated the code two more times for the other columns changing the class names to their respective elements.
+
+Result: 
+
+![columncollapse](demo/columncollapse.gif)
