@@ -1,0 +1,228 @@
+/* Color Palette */
+
+/* Light purple: #9A969C
+Dark purple: #3E3544
+Background color: #ffffff
+White text: #ffffff
+Body text: #000000
+Font: Roboto Slab */
+
+
+/* elements */
+
+* {
+  margin: 0 auto;
+}
+
+/* * {
+  display: grid;
+
+} */
+
+header {
+  display: inline-block;
+  /* grid-template-rows: auto; */
+  /* border: 2px solid red; */
+  /* width: 20%; */
+  height: 100%;
+  background-color: #9b969c;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  margin-top: 50px;
+  height: 200px;
+  margin-left: -20px;
+}
+
+a {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000001;
+  text-decoration: none;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template: 
+  /* margin: 0 auto; */
+  /* width: 80%; */
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+  /* float: right; */
+}
+
+.firsthalf {
+  width: 100%;
+  /* border: 2px solid red; */
+  display: inline-block;
+  background-color: #3E3544;
+}
+
+
+.secondhalf {
+display: flex;
+flex-flow: column;
+
+}
+
+
+.dogicon {
+  margin-left: 55px;
+  margin-top: 40px;
+  width: 170px;
+  height: 170px;
+}
+
+.topdog {
+  display: block !important;
+  float: left !important;
+  width: 400px !important;
+  height: 400px !important;
+  border: 15px solid !important;
+  border-color: #9a959b !important;
+  border-radius: 50%;
+  margin: 20px 0px 40px 40px !important;
+
+}
+
+h1 {
+  float: right;
+  display: block;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  margin-right: 95px;
+  margin-top: 100px;
+  color: #ffffff;
+  font-size: 40px;
+
+}
+
+span {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.form {
+  display: inline-block;
+  /* float: right; */
+  /* border: 4px solid red; */
+  width: 50%;
+  height: 200px;
+  margin-left: 80px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.name {
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+}
+
+input {
+  width: 85%;
+  height: 40px;
+  margin-left: 20px;
+}
+
+
+.change {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 20px;
+  width: 86%;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #9b969c;
+  border: 1px solid;
+  border-color: #9b969c;
+}
+
+
+.containerdog{
+  width: 90%;
+  margin-bottom: 20px;
+  border-bottom: 2px solid;
+  border-color: #b9b6ba;
+}
+
+.how {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  /* border-bottom: 2px; */
+  /* border-color: gray; */
+}
+
+.dogpic {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 5px solid;
+  border-color:#9a959b;
+  border-radius: 50%;
+
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  margin-left: 30px;
+  margin-bottom: 10px;
+
+}
+
+.p1 {
+  float: right;
+  width: 65%;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.p2 {
+  float: right;
+  width: 65%;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.p3 {
+  float: right;
+  width: 65%;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.containerbutton {
+  float: right;
+  width: 15%;
+  height: 50px;
+  background-color: #3c3644;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  margin-right: 20px;
+  margin-top: -60px;
+  margin-bottom: 50px;
+}
+
+footer {
+  display: inline;
+  /* float: right; */
+  width: 1400px;
+  height: 200px;
+  /* display: block; */
+  border: 4px solid red;
+  background-color: #3E3544;
+}

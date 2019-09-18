@@ -1,0 +1,16 @@
+For animating transitions :
+
+
+if (para1.hasClass('disappear')) {
+  para1.removeClass('disappear');
+  setTimeout(function () {
+    box.removeClass('transition');
+  }, 20);
+} else {
+  para1.addClass('transition');
+  para1.one('transitionend', function(e) {
+    para1.addClass('disappear');
+  });
+}
+
+});
