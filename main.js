@@ -10,9 +10,9 @@ var btnclm3 = $('.factbtn');
 
 // Event Listeners
 btn.on('click', () => {
-    var fromInput = bar.value;
-    headchange.innerHTML = fromInput;
-    bar.value = '';
+    var fromInput = bar.val();
+    headchange.text(fromInput);
+    bar.text('');
 });
 
 btnclm1.on('click', () => para1.attr('style') !== "display: none;"?  para1.slideUp() : para1.slideDown());
